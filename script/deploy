@@ -4,7 +4,7 @@ ssh ddtdigital@104.131.88.210 -p 1515  <<EOF
   cd /var/www/hello-jenkins
   git pull
   npm install --production
-  node app.js
+  forever restartall
   exit
 EOF
 
