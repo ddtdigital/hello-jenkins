@@ -7,4 +7,3 @@ ssh ddtdigital@104.131.88.210 -p 1515  <<EOF
   /usr/local/nvm/v5.1.0/bin/forever restartall
   exit
 EOF
-
